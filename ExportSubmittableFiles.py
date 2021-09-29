@@ -2,8 +2,8 @@ from submittable_api_client.submittable_api_client import SubmittableAPIClient
 import os
 import json
 
-TOKEN = "accc0e3c524d49308613f2ec9fe149f7"
-USERNAME_EMAIL = "dk@thecategory.com"
+TOKEN = ""
+USERNAME_EMAIL = ""
 
 def make_dirs():
   if not os.path.exists('files'):
