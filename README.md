@@ -36,8 +36,8 @@ ExportSubmittableFiles$ python3 ExportSubmittableFiles.py
 ```json
 {"submission_id": 21352069, 
 "title": "Submission Title", 
-"filename": "files/submissions/21352069_2021-09-27_AUTHOR_NAME__DATE_Submission file name.docx", 
-"history": [{"date": "2021-09-27T10:59:4", "message": "None"}, 
+"filename": "files/submissions/21081169_2021-08-27_ae8cb2fe-f0b9-40c2-a861-ccea399dfeea_AUTHOR_NAME__DATE_Submission file name.docx", 
+"history": [{"date": "2021-09-27T10:59:40", "message": "None"}, 
 {"date": "2021-09-27T10:59:4", "message": "Hi ,<br /><br />Thank you... We have received your submission and look forward to reviewing it.<br/><br />Thanks!<br/>"}]}
 ```
 
