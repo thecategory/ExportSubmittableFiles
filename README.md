@@ -31,6 +31,21 @@ USERNAME_EMAIL = "FFFFFFFFF"
 ExportSubmittableFiles$ python3 ExportSubmittableFiles.py
 ```
 
+- You'll have a list of JSONs of each history message at files/history that look like this:
+
+```json
+{"submission_id": 21352069, 
+"title": "Submission Title", 
+"filename": "files/submissions/21352069_2021-09-27_AUTHOR_NAME__DATE_Submission file name.docx", 
+"history": [{"date": "2021-09-27T10:59:4", "message": "None"}, 
+{"date": "2021-09-27T10:59:4", "message": "Hi ,<br /><br />Thank you... We have received your submission and look forward to reviewing it.<br/><br />Thanks!<br/>"}]}
+```
+
+- Submission files are at files/submissions (as stated in the history JSON "filename" section).
+
+- Another db.json will contain all history values in one file (if you require quick import to another database).
+
+
 # LICENSE
 
 MIT THING, NO GUARANTEE, JUST A SMALL HACK, HOPE YOU FIND IT USEFUL.
